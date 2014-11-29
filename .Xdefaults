@@ -1,0 +1,105 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+ 
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt.fading:               0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            50
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+ 
+! Fonts
+URxvt.allow_bold:           false
+!! /* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=12
+URxvt*boldFont: xft:DejaVu Sans Mono:pixelsize=12
+ 
+! Fix font space
+URxvt*letterSpace: -2
+ 
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+ 
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+ 
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+ 
+! Pointer
+URxvt.pointerBlank:         true
+ 
+
+! base16-default
+!*background: #202020
+!*foreground: #e0e0e0
+!!*fading: 40
+!*fadeColor: #e0e0e0
+!*cursorColor: #e0e0e0
+!*pointerColorBackground: #e0e0e0
+!*pointerColorForeground: #e0e0e0
+
+!! black dark/light
+!*color0: #000000
+!*color8: #000000
+
+!! red dark/light
+!*color1: #ac4142
+!*color9: #ac4142
+
+!! green dark/light
+!*color2: #90a959
+!*color10: #90a959
+
+!! yellow dark/light
+!*color3: #f4bf75
+!*color11: #f4bf75
+
+!! blue dark/light
+!*color4: #6a9fb5
+!*color12: #6a9fb5
+
+!! magenta dark/light
+!*color5: #aa759f
+!*color13: #aa759f
+
+!! cyan dark/light
+!*color6: #75b5aa
+!*color14: #75b5aa
+
+!! white dark/light
+!*color7: #e0e0e0
+!*color15: #e0e0e0
+
+! From /g/
+*background: #181818
+*foreground: #e0e0e0
+*color1: #9e6b71
+*color9: #b69094
+*color2: #719e6b
+*color10: #94b690
+*color3: #9e986c
+*color11: #b5b18f
+*color4: #6c8b9e
+*color12: #90a7b6
+*color5: #986b9e
+*color13: #b290b6
+*color6: #6b9e98
+*color14: #90b6b3
+*color7: #b8baba
+*color15: #cdcfce
